@@ -1,7 +1,47 @@
-body{background-color: purple;
-color: black;
+:root{
+    --cor-texto-link:#5A13B4;
+    --cor-titulo:#3B1270;
+    --cor-fundo:#3B1270;
+    --cor-texto-destaque:#8e35ff;
+
+    --cor-fundo-escolha-curso:#3b1270;
+    --cor-fundo-inscrever-se:#8e35ff;
 }
 
-.titulo{
-    color: blue;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin-top: 2.5vw;
+}
+a{
+    color: var(--cor-texto-link);
+    text-decoration: none;
+}
+.marginSite{
+    margin: 0 10vw;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+/Header/
+.containerMenuPrincipal{
+    margin-left: 5vw;
+    justify-content: space-between;
+    width: 100%;
+}
+/Fim Header/
+.containerBlogGrad, .containerBuscarAmb{
+gap: 2w;
+
+}
+
+.containerBuscar input{
+    border: 1px, solid, var(--cor-buscar);  
+    padding: 5px
 }
